@@ -1,0 +1,8 @@
+Activate env:
+    source itsEnv/bin/activate
+Activate SUMO variable (with env activated):
+    export SUMO_HOME="/opt/sumo-0.25.0"
+Run with python 2 and 24h:
+    python2.7 generic_its.py -s ../scenario/Grid-5x5_2/86000_0.sumo.cfg -n ../scenario/Grid-5x5_2/grid.net.xml -l ../log/arquivo_de_log.txt -o ../output/arquivo_output.xml
+
+86000 for 0.1, 0.5, 0.9 learning rate and exploration
